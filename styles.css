@@ -1,16 +1,24 @@
 
 /* Your CSS Code here. */
-        table {
-            width: 100%;
+    table {
             border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 18px;
-            text-align: left;
+            width: 50%;
+            text-align: center;
         }
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
+    th, td {
+            border: 1px solid black;
+            padding: 8px;
         }
         th {
-            background-color: #f4f4f4;
+            background-color: #8B0000;
+            color: white;
+        }
+ td:first-child {
+            font-weight: bold;
+        }
+        tr:nth-child(odd) td {
+            background-color: #d3d3d3;
+        }
+        tr:nth-child(even) td {
+            background-color: #f5b7b1;
         }
